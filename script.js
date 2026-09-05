@@ -1,5 +1,6 @@
 console.log("hola mundo");
 
+//funcion para la computadora
 function getComputerChoice() {
   let valor = Math.random();
 
@@ -12,4 +13,9 @@ function getComputerChoice() {
   }
 }
 
+function getHumanChoice() {
+  let entrada = prompt("Ingresa un valor de entrada");
+  return entrada;
+}
+console.log(getHumanChoice());
 console.log(getComputerChoice());
